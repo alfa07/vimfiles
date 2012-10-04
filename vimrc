@@ -115,10 +115,10 @@ set winheight=5
 set winminheight=5
 set winheight=999
 
-set shell=powershell
-set shellcmdflag=-c
-set shellquote=\"
-set shellxquote=
+"set shell=powershell
+"set shellcmdflag=-c
+"set shellquote=\"
+"set shellxquote=
 
 inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
 inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
