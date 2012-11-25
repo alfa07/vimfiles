@@ -120,3 +120,9 @@ set shellcmdflag=-c
 set shellquote=\"
 set shellxquote=
 
+inoremap <expr> j ((pumvisible())?("\<C-n>"):("j"))
+inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
+
+set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+
