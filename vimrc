@@ -126,6 +126,8 @@ inoremap <expr> k ((pumvisible())?("\<C-p>"):("k"))
 set runtimepath^=~/.vim/bundle/ctrlp.vim
 
 
+set nobackup
+set noswapfile
 syntax enable
 set background=light
 colorscheme solarized
