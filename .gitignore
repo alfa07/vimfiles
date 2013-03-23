@@ -166,3 +166,6 @@ pip-log.txt
 *~
 
 .vim
+.gitignore.orig
+.gitmodules.orig
+vimrc.orig
