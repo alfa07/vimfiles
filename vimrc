@@ -5,10 +5,18 @@ filetype plugin indent on
 
 set nocompatible
 
-source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
+"source $VIMRUNTIME/vimrc_example.vim
+"source $VIMRUNTIME/mswin.vim
 
-behave mswin
+"behave mswin
+"
+"Configuring cursor for iTerm2
+let &t_SI = "\<Esc>]50;CursorShape=1\x7"
+let &t_EI = "\<Esc>]50;CursorShape=0\x7"
+
+"General cursor configuration
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
 
 set tabstop=4
 set shiftwidth=4
