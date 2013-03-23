@@ -1,5 +1,5 @@
 filetype off
-call pathogen#infect('C:\Users\maxim\vimfiles\bundle')
+call pathogen#infect('~/vimfiles/bundle')
 syntax on
 filetype plugin indent on
 
@@ -92,9 +92,10 @@ syntax on
 colorscheme desert
 
 if has('gui_running')
-    set guifont=Consolas:h12:cRUSSIAN
+    set guifont=Menlo:h15:cRUSSIAN
 endif
 
+set guifont=Menlo\ Regular:h15
 
 "nnoremap - o<esc> 
 "nnoremap _ O<esc> 
